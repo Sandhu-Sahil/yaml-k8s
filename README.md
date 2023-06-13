@@ -36,3 +36,11 @@ save it in a yaml file:
 ```
 kubectl get deployment nginx-deployment -o yaml > nginx-deployment-result.yaml
 ```
+
+### delete yaml
+```
+kubectl delete -f nginx-deployment.yaml
+```
+```
+kubectl delete -f nginx-service.yaml
+```
